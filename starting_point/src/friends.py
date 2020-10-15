@@ -28,9 +28,10 @@ def total_money(people):
         money += person["monies"]
     return money
 
-def l_money(loaner, loanee, money):
-    loaner["monies"] -= money
-    loanee["monies"] += money
+
+def l_money(lender, lendee, money):
+    lender["monies"] -= money
+    lendee["monies"] += money
 
 
 def all_favourite_foods(list):
